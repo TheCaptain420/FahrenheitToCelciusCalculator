@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Enter Fahrenheit : ");
-        double fahre = 104;
+        Scanner userIn = new Scanner(System.in);
+        double fahre = userIn.nextDouble();
         double celci = ((5.0/9)*(fahre-32));
 
 
